@@ -18,11 +18,11 @@
 위치: firehose/cell2fire
 
 2. 새롭게 설치한 라이브러리나 모듈 목록입니다.
-```python
-pip install gymnasium\
-pip install pettingzoo\
-pip install "ray[rllib]"\
-pip install torch\
+```bash
+pip install gymnasium
+pip install pettingzoo
+pip install "ray[rllib]"
+pip install torch
 ```
 3. Iteration 100회 정도 돌려본 결과도 업로드 해두었습니다.
 `ray_tune_env_runners_agent_episode_return ~` 으로 시작하는 세 파일은 각각 헬리콥터, 드론, 지상인력의 return 그래프입니다.\
